@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid darkblue;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    left: 600px;
+    top: 200px;
+}
+
+.bottomLeft {
+    background: darkolivegreen;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}

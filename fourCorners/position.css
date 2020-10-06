@@ -1,0 +1,52 @@
+.bottomLeft {
+    bottom: 0;
+    left: 0;
+    background: dodgerblue;
+}
+
+
+.topRight {
+    top: 0;
+    right: 0;
+}
+
+
+.topLeft {
+    top: 0;
+    left: 0;
+}
+
+.bottomRight {
+    bottom: 0;
+    right: 0;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.dodgerBlue {
+    background: dodgerblue;
+}
+
+.darkolivegreen {
+    background: darkolivegreen;
+}
+
+
+.red {
+    background: red;
+}
+
+.white {
+    background: white;
+}

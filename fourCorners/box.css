@@ -1,0 +1,23 @@
+
+.mediumBox {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.smallBox {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+.container {
+    border: 1px solid darkblue;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    left: 600px;
+    top: 200px;
+}
+
+

@@ -1,0 +1,85 @@
+$zero: 0;
+$abs: absolute;
+$rel: relative;
+
+
+
+
+.bottomLeft {
+  bottom: $zero;
+  left: $zero;
+}
+
+.topRight {
+  top: $zero;
+  right: $zero;
+}
+
+.topLeft {
+  top: $zero;
+  left: $zero;
+}
+
+.center {
+  position: $abs;
+  top: $zero;
+  left: $zero;
+  bottom: $zero;
+  right: $zero;
+  margin: auto;
+}
+
+.mediumBox {
+  height: 100px;
+  width: 100px;
+  position: $abs;
+}
+
+.smallBox {
+  height: 20px;
+  width: 20px;
+  position: $abs;
+}
+
+.container {
+  border: 1px solid darkblue;
+  height: 700px;
+  width: 700px;
+  position: $rel;
+  left: 600px;
+  top: 200px;
+}
+
+
+.bottomRight {
+  bottom: $zero;
+  right: $zero;
+}
+
+
+
+
+.topLeftBox {
+  @extend .topLeft;
+  @extend .mediumBox;
+  background: red;
+}
+
+.topRightBox {
+  @extend .topRight;
+  @extend .mediumBox;
+  background: darkolivegreen;
+}
+
+.bottomRightBox {
+  @extend .bottomRight;
+  @extend .mediumBox;
+  background: yellow;
+}
+
+.bottomLeftBox {
+  @extend .bottomLeft;
+  @extend .mediumBox;
+  background: dodgerblue;
+}
+
